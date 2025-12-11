@@ -1,0 +1,6 @@
+# DBT Requirements
+dbt-core>=1.7.0
+dbt-bigquery>=1.7.0  # BigQuery adapter
+
+# Optional packages for enhanced functionality
+dbt-utils>=1.1.0

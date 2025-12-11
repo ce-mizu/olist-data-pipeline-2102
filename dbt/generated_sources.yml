@@ -1,0 +1,148 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    description: Raw data from Olist e-commerce platform
+    database: olist-data-pipeline
+    schema: olist_data_pipeline
+    tables:
+      - name: olist_customers_dataset
+        description: Data from olist_customers_dataset
+        columns:
+          - name: customer_id
+            description: customer_id column
+          - name: customer_unique_id
+            description: customer_unique_id column
+          - name: customer_zip_code_prefix
+            description: customer_zip_code_prefix column
+          - name: customer_city
+            description: customer_city column
+          - name: customer_state
+            description: customer_state column
+
+      - name: olist_geolocation_dataset
+        description: Data from olist_geolocation_dataset
+        columns:
+          - name: geolocation_zip_code_prefix
+            description: geolocation_zip_code_prefix column
+          - name: geolocation_lat
+            description: geolocation_lat column
+          - name: geolocation_lng
+            description: geolocation_lng column
+          - name: geolocation_city
+            description: geolocation_city column
+          - name: geolocation_state
+            description: geolocation_state column
+
+      - name: olist_order_items_dataset
+        description: Data from olist_order_items_dataset
+        columns:
+          - name: order_id
+            description: order_id column
+          - name: order_item_id
+            description: order_item_id column
+          - name: product_id
+            description: product_id column
+          - name: seller_id
+            description: seller_id column
+          - name: shipping_limit_date
+            description: shipping_limit_date column
+          - name: price
+            description: price column
+          - name: freight_value
+            description: freight_value column
+
+      - name: olist_order_payments_dataset
+        description: Data from olist_order_payments_dataset
+        columns:
+          - name: order_id
+            description: order_id column
+          - name: payment_sequential
+            description: payment_sequential column
+          - name: payment_type
+            description: payment_type column
+          - name: payment_installments
+            description: payment_installments column
+          - name: payment_value
+            description: payment_value column
+
+      - name: olist_order_reviews_dataset
+        description: Data from olist_order_reviews_dataset
+        columns:
+          - name: review_id
+            description: review_id column
+          - name: order_id
+            description: order_id column
+          - name: review_score
+            description: review_score column
+          - name: review_comment_title
+            description: review_comment_title column
+          - name: review_comment_message
+            description: review_comment_message column
+          - name: review_creation_date
+            description: review_creation_date column
+          - name: review_answer_timestamp
+            description: review_answer_timestamp column
+
+      - name: olist_orders_dataset
+        description: Data from olist_orders_dataset
+        columns:
+          - name: order_id
+            description: order_id column
+          - name: customer_id
+            description: customer_id column
+          - name: order_status
+            description: order_status column
+          - name: order_purchase_timestamp
+            description: order_purchase_timestamp column
+          - name: order_approved_at
+            description: order_approved_at column
+          - name: order_delivered_carrier_date
+            description: order_delivered_carrier_date column
+          - name: order_delivered_customer_date
+            description: order_delivered_customer_date column
+          - name: order_estimated_delivery_date
+            description: order_estimated_delivery_date column
+
+      - name: olist_products_dataset
+        description: Data from olist_products_dataset
+        columns:
+          - name: product_id
+            description: product_id column
+          - name: product_category_name
+            description: product_category_name column
+          - name: product_name_lenght
+            description: product_name_lenght column
+          - name: product_description_lenght
+            description: product_description_lenght column
+          - name: product_photos_qty
+            description: product_photos_qty column
+          - name: product_weight_g
+            description: product_weight_g column
+          - name: product_length_cm
+            description: product_length_cm column
+          - name: product_height_cm
+            description: product_height_cm column
+          - name: product_width_cm
+            description: product_width_cm column
+
+      - name: olist_sellers_dataset
+        description: Data from olist_sellers_dataset
+        columns:
+          - name: seller_id
+            description: seller_id column
+          - name: seller_zip_code_prefix
+            description: seller_zip_code_prefix column
+          - name: seller_city
+            description: seller_city column
+          - name: seller_state
+            description: seller_state column
+
+      - name: product_category_name_translation
+        description: Data from product_category_name_translation
+        columns:
+          - name: string_field_0
+            description: string_field_0 column
+          - name: string_field_1
+            description: string_field_1 column
+

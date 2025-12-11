@@ -1,0 +1,62 @@
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'olist_data_pipeline'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'olist_data_pipeline'
+
+# These configurations specify where dbt should look for different types of files.
+# The `source-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/reference/model-configs
+
+models:
+  olist_data_pipeline:
+    # Config indicated by + and applies to all files under models/example/
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+# Configuring snapshots
+snapshots:
+  olist_data_pipeline:
+    +target_schema: snapshots
+
+# Configuring seeds
+seeds:
+  olist_data_pipeline:
+    +schema: seeds
+
+# Configuring tests
+tests:
+  olist_data_pipeline:
+    +store_failures: true
+    +schema: test_failures
+
+# Configuring macros
+vars:
+  # Define global variables here
+  start_date: '2021-01-01'
+  end_date: '2024-12-31'

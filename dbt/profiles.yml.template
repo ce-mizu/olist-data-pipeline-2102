@@ -1,0 +1,27 @@
+# Configuration for BigQuery
+olist_data_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/.dbt/olist-data-pipeline-b83e0d008547.json  # Path to your service account JSON
+      project: olist-data-pipeline  # Your GCP Project ID
+      dataset: olist_data_pipeline_dev  # Your development dataset
+      threads: 4
+      timeout_seconds: 300
+      location: US  # or EU, depending on your BigQuery location
+      priority: interactive
+      retries: 1
+
+    prod:
+      type: bigquery
+      method: service-account
+      keyfile: ~/.dbt/olist-data-pipeline-prod.json  # Path to your prod service account JSON
+      project: olist-data-pipeline  # Your GCP Project ID
+      dataset: olist_data_pipeline_prod  # Your production dataset
+      threads: 8
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+      retries: 1

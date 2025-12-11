@@ -1,0 +1,175 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Staging model for customers data
+    columns:
+      - name: customer_id
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+      - name: customer_unique_id
+        description: Unique customer identifier
+      - name: customer_zip_code_prefix
+        description: Customer zip code prefix
+      - name: customer_city
+        description: Customer city
+      - name: customer_state
+        description: Customer state
+
+  - name: stg_orders
+    description: Staging model for orders data
+    columns:
+      - name: order_id
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: Foreign key to customers
+        tests:
+          - not_null
+      - name: order_status
+        description: Order status
+        tests:
+          - accepted_values:
+              values: ['delivered', 'shipped', 'processing', 'unavailable', 'invoiced', 'created', 'approved', 'canceled']
+      - name: order_purchase_timestamp
+        description: Order purchase timestamp
+      - name: order_approved_at
+        description: Order approval timestamp
+      - name: order_delivered_carrier_date
+        description: Order delivered to carrier timestamp
+      - name: order_delivered_customer_date
+        description: Order delivered to customer timestamp
+      - name: order_estimated_delivery_date
+        description: Estimated delivery date
+
+  - name: stg_order_items
+    description: Staging model for order items data
+    columns:
+      - name: order_id
+        description: Foreign key to orders
+        tests:
+          - not_null
+      - name: order_item_id
+        description: Order item sequence number
+      - name: product_id
+        description: Foreign key to products
+      - name: seller_id
+        description: Foreign key to sellers
+      - name: shipping_limit_date
+        description: Shipping limit date
+      - name: price
+        description: Item price
+        tests:
+          - not_null
+      - name: freight_value
+        description: Freight value
+
+  - name: stg_products
+    description: Staging model for products data
+    columns:
+      - name: product_id
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+      - name: product_category_name
+        description: Product category name
+      - name: product_name_length
+        description: Product name length
+      - name: product_description_length
+        description: Product description length
+      - name: product_photos_qty
+        description: Number of product photos
+      - name: product_weight_g
+        description: Product weight in grams
+      - name: product_length_cm
+        description: Product length in cm
+      - name: product_height_cm
+        description: Product height in cm
+      - name: product_width_cm
+        description: Product width in cm
+
+  - name: stg_sellers
+    description: Staging model for sellers data
+    columns:
+      - name: seller_id
+        description: Primary key
+        tests:
+          - not_null
+          - unique
+      - name: seller_zip_code_prefix
+        description: Seller zip code prefix
+      - name: seller_city
+        description: Seller city
+      - name: seller_state
+        description: Seller state
+
+  - name: stg_geolocation
+    description: Staging model for geolocation data
+    columns:
+      - name: geolocation_zip_code_prefix
+        description: Zip code prefix
+        tests:
+          - not_null
+      - name: geolocation_lat
+        description: Latitude coordinate
+      - name: geolocation_lng
+        description: Longitude coordinate
+      - name: geolocation_city
+        description: City name
+      - name: geolocation_state
+        description: State name
+
+  - name: stg_order_payments
+    description: Staging model for order payments data
+    columns:
+      - name: order_id
+        description: Foreign key to orders
+        tests:
+          - not_null
+      - name: payment_sequential
+        description: Payment sequence number
+      - name: payment_type
+        description: Payment method type
+      - name: payment_installments
+        description: Number of installments
+      - name: payment_value
+        description: Payment value
+
+  - name: stg_order_reviews
+    description: Staging model for order reviews data
+    columns:
+      - name: review_id
+        description: Review unique identifier
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        description: Foreign key to orders
+        tests:
+          - not_null
+      - name: review_score
+        description: Review score from 1 to 5
+      - name: review_comment_title
+        description: Review comment title
+      - name: review_comment_message
+        description: Review comment message
+      - name: review_creation_date
+        description: Review creation timestamp
+      - name: review_answer_timestamp
+        description: Review answer timestamp
+
+  - name: stg_product_category_translation
+    description: Staging model for product category translations
+    columns:
+      - name: product_category_name
+        description: Product category name in Portuguese
+        tests:
+          - not_null
+          - unique
+      - name: product_category_name_english
+        description: Product category name in English

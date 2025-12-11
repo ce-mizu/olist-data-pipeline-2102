@@ -1,0 +1,169 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    description: Raw data from Olist e-commerce platform
+    database: olist-data-pipeline
+    schema: olist_data_pipeline
+    tables:
+      - name: olist_customers_dataset
+        description: Customer information
+        columns:
+          - name: customer_id
+            description: Primary key of customers table
+            tests:
+              - not_null
+              - unique
+          - name: customer_unique_id
+            description: Unique identifier for customers
+          - name: customer_zip_code_prefix
+            description: Customer zip code prefix
+          - name: customer_city
+            description: Customer city
+          - name: customer_state
+            description: Customer state
+
+      - name: olist_orders_dataset
+        description: Order information
+        columns:
+          - name: order_id
+            description: Primary key of orders table
+            tests:
+              - not_null
+              - unique
+          - name: customer_id
+            description: Foreign key to customers table
+            tests:
+              - not_null
+              - relationships:
+                  to: source('olist_raw', 'olist_customers_dataset')
+                  field: customer_id
+          - name: order_status
+            description: Order status
+          - name: order_purchase_timestamp
+            description: Order purchase timestamp
+          - name: order_approved_at
+            description: Order approval timestamp
+          - name: order_delivered_carrier_date
+            description: Order delivered to carrier timestamp
+          - name: order_delivered_customer_date
+            description: Order delivered to customer timestamp
+          - name: order_estimated_delivery_date
+            description: Estimated delivery date
+
+      - name: olist_order_items_dataset
+        description: Order items information
+        columns:
+          - name: order_id
+            description: Foreign key to orders table
+            tests:
+              - not_null
+          - name: order_item_id
+            description: Order item sequence number
+          - name: product_id
+            description: Foreign key to products table
+          - name: seller_id
+            description: Foreign key to sellers table
+          - name: shipping_limit_date
+            description: Shipping limit date
+          - name: price
+            description: Item price
+          - name: freight_value
+            description: Freight value
+
+      - name: olist_products_dataset
+        description: Product information
+        columns:
+          - name: product_id
+            description: Primary key of products table
+            tests:
+              - not_null
+              - unique
+          - name: product_category_name
+            description: Product category name
+          - name: product_name_lenght
+            description: Product name length
+          - name: product_description_lenght
+            description: Product description length
+          - name: product_photos_qty
+            description: Number of product photos
+          - name: product_weight_g
+            description: Product weight in grams
+          - name: product_length_cm
+            description: Product length in cm
+          - name: product_height_cm
+            description: Product height in cm
+          - name: product_width_cm
+            description: Product width in cm
+
+      - name: olist_sellers_dataset
+        description: Seller information
+        columns:
+          - name: seller_id
+            description: Primary key of sellers table
+            tests:
+              - not_null
+              - unique
+          - name: seller_zip_code_prefix
+            description: Seller zip code prefix
+          - name: seller_city
+            description: Seller city
+          - name: seller_state
+            description: Seller state
+
+      - name: olist_geolocation_dataset
+        description: Geolocation data
+        columns:
+          - name: geolocation_zip_code_prefix
+            description: Zip code prefix
+          - name: geolocation_lat
+            description: Latitude
+          - name: geolocation_lng
+            description: Longitude
+          - name: geolocation_city
+            description: City name
+          - name: geolocation_state
+            description: State name
+
+      - name: olist_order_payments_dataset
+        description: Order payment information
+        columns:
+          - name: order_id
+            description: Foreign key to orders
+          - name: payment_sequential
+            description: Payment sequence
+          - name: payment_type
+            description: Payment type
+          - name: payment_installments
+            description: Number of installments
+          - name: payment_value
+            description: Payment value
+
+      - name: olist_order_reviews_dataset
+        description: Order reviews by customers
+        columns:
+          - name: review_id
+            description: Review unique ID
+          - name: order_id
+            description: Foreign key to orders
+          - name: review_score
+            description: Review score (1-5)
+          - name: review_comment_title
+            description: Review title
+          - name: review_comment_message
+            description: Review message
+          - name: review_creation_date
+            description: Review creation date
+          - name: review_answer_timestamp
+            description: Review answer timestamp
+
+      - name: product_category_name_translation
+        description: Product category name translation from Portuguese to English
+        columns:
+          - name: product_category_name
+            description: Product category name in Portuguese
+            tests:
+              - not_null
+              - unique
+          - name: product_category_name_english
+            description: Product category name in English
