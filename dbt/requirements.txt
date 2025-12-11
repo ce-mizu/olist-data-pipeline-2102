@@ -1,6 +1,20 @@
-# DBT Requirements
+# DBT Core and Adapters
 dbt-core>=1.7.0
 dbt-bigquery>=1.7.0  # BigQuery adapter
 
-# Optional packages for enhanced functionality
-dbt-utils>=1.1.0
+# Google Cloud dependencies
+google-cloud-bigquery>=3.0.0  # For schema extraction scripts
+google-auth>=2.0.0
+google-cloud-core>=2.0.0
+
+# Data processing and utilities
+pandas>=1.5.0  # For data analysis and processing
+numpy>=1.24.0  # Numerical computations
+
+# Development and testing (compatible versions)
+pytest>=6.0.0,<7.0.0  # Testing framework (compatible with pytest-dbt-adapter)
+pytest-dbt-adapter>=0.6.0  # DBT testing utilities
+
+# Code quality
+sqlparse>=0.4.0  # SQL formatting
+pyyaml>=6.0  # YAML parsing
