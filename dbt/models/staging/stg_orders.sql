@@ -1,4 +1,12 @@
-{{ config(materialized='table') }}
+{{
+  config(
+    materialized='incremental',
+    unique_key='order_id',
+    on_schema_change='fail'
+  )
+}}
+
+{% set batch_hours = var('batch_hours', 1) %}
 
 select
     order_id,
@@ -12,3 +20,17 @@ select
     current_timestamp as _loaded_at
 from {{ source('olist_raw', 'olist_orders_dataset') }}
 where order_id is not null
+
+{% if is_incremental() %}
+  {% set max_timestamp_query %}
+    select coalesce(max(order_purchase_timestamp), timestamp('2000-01-01')) from {{ this }}
+  {% endset %}
+
+  {% set max_timestamp = run_query(max_timestamp_query) %}
+  {% set max_timestamp_value = max_timestamp.columns[0].values()[0] %}
+
+  and cast(order_purchase_timestamp as timestamp) > timestamp('{{ max_timestamp_value }}')
+  and cast(order_purchase_timestamp as timestamp) <= timestamp_add(timestamp('{{ max_timestamp_value }}'), interval {{ batch_hours }} hour)
+{% endif %}
+
+order by order_purchase_timestamp
