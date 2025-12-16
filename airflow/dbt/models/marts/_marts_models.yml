@@ -1,0 +1,145 @@
+version: 2
+
+models:
+  - name: commercial_mart
+    description: Commercial analytics mart with sales, regional distribution, ABC curve and revenue analysis
+    columns:
+      - name: order_id
+        description: Order identifier (not unique - multiple items per order)
+        tests:
+          - not_null
+      - name: customer_id
+        description: Customer identifier
+        tests:
+          - not_null
+      - name: seller_id
+        description: Seller identifier
+        tests:
+          - not_null
+      - name: total_order_value
+        description: Total order value (item price + freight)
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+      - name: seller_region
+        description: Seller region classification
+        tests:
+          - accepted_values:
+              values: ['Sudeste', 'Sul', 'Centro-Oeste', 'Nordeste', 'Norte', 'Outros']
+      - name: abc_class_category
+        description: ABC classification by category
+        tests:
+          - accepted_values:
+              values: ['A', 'B', 'C']
+      - name: abc_class_seller
+        description: ABC classification by seller
+        tests:
+          - accepted_values:
+              values: ['A', 'B', 'C']
+      - name: category_revenue_percentage
+        description: Revenue share percentage by category
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+              inclusive: true
+
+  - name: logistical_mart
+    description: Logistical analytics mart with delivery performance, regional analysis and carrier metrics
+    columns:
+      - name: order_id
+        description: Order identifier (not unique - multiple items per order)
+        tests:
+          - not_null
+      - name: customer_id
+        description: Customer identifier
+        tests:
+          - not_null
+      - name: seller_id
+        description: Seller identifier
+        tests:
+          - not_null
+      - name: seller_region
+        description: Seller region
+        tests:
+          - accepted_values:
+              values: ['Sudeste', 'Sul', 'Centro-Oeste', 'Nordeste', 'Norte', 'Outros']
+      - name: customer_region
+        description: Customer region
+        tests:
+          - accepted_values:
+              values: ['Sudeste', 'Sul', 'Centro-Oeste', 'Nordeste', 'Norte', 'Outros']
+      - name: delivery_status
+        description: Delivery status
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Delivered', 'In Transit', 'Processing', 'Pending']
+      - name: delivery_performance
+        description: Delivery performance classification
+        tests:
+          - accepted_values:
+              values: ['Fast Delivery', 'Standard Delivery', 'Slow Delivery', 'Pending Delivery']
+      - name: supplier_leg_performance
+        description: Supplier to carrier performance
+        tests:
+          - accepted_values:
+              values: ['Fast Pickup', 'Standard Pickup', 'Slow Pickup', 'Unknown Pickup']
+      - name: carrier_leg_performance
+        description: Carrier to customer performance
+        tests:
+          - accepted_values:
+              values: ['Fast Transit', 'Standard Transit', 'Slow Transit', 'Unknown Transit']
+
+  - name: financial_mart
+    description: Financial analytics mart with payment analysis, revenue share and billing vs receipt curves
+    columns:
+      - name: order_id
+        description: Order identifier (not unique - multiple payments per order)
+        tests:
+          - not_null
+      - name: payment_type
+        description: Payment method
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['credit_card', 'debit_card', 'boleto', 'voucher']
+      - name: payment_value
+        description: Payment value
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+      - name: revenue_share_percentage
+        description: Revenue share by payment method
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 100
+              inclusive: true
+      - name: transaction_size
+        description: Transaction size classification
+        tests:
+          - accepted_values:
+              values: ['Small Transaction', 'Medium Transaction', 'Large Transaction', 'Premium Transaction', 'Unknown']
+      - name: installment_category
+        description: Installment classification
+        tests:
+          - accepted_values:
+              values: ['Single Payment', 'Short Term Installment', 'Medium Term Installment', 'Long Term Installment', 'Unknown Installment']
+      - name: payment_category
+        description: Payment category description
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Credit Payment', 'Debit Payment', 'Bank Slip', 'Voucher Payment', 'Other Payment']
+      - name: days_to_receipt
+        description: Days from approval to receipt
+        tests:
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 365
+              inclusive: true

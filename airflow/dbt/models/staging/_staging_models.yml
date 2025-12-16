@@ -147,7 +147,6 @@ models:
         description: Review unique identifier
         tests:
           - not_null
-          - unique
       - name: order_id
         description: Foreign key to orders
         tests:

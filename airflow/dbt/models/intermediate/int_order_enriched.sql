@@ -9,6 +9,7 @@ select
   o.order_delivered_customer_date,
   i.freight_value as order_freight_value,
   i.product_id,
+  i.seller_id,
   i.price as item_price,
   p.product_category_name as item_category
 from {{ ref('stg_orders') }} o

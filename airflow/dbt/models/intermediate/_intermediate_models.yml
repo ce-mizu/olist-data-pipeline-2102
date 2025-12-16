@@ -1,0 +1,89 @@
+version: 2
+
+models:
+  - name: int_order_enriched
+    description: Intermediate model enriching orders with product and seller information
+    columns:
+      - name: order_id
+        description: Order identifier (not unique - multiple items per order)
+        tests:
+          - not_null
+      - name: customer_id
+        description: Customer identifier
+        tests:
+          - not_null
+      - name: seller_id
+        description: Seller identifier
+        tests:
+          - not_null
+      - name: product_id
+        description: Product identifier
+        tests:
+          - not_null
+      - name: item_category
+        description: Product category
+      - name: order_status
+        description: Order status
+        tests:
+          - not_null
+      - name: item_price
+        description: Item price
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+      - name: order_freight_value
+        description: Freight value
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+
+  - name: int_payment_enriched
+    description: Intermediate model enriching payments with calculated receipt dates
+    columns:
+      - name: order_id
+        description: Order identifier
+        tests:
+          - not_null
+      - name: payment_sequential
+        description: Payment sequence number
+        tests:
+          - not_null
+      - name: payment_type
+        description: Payment method
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['credit_card', 'debit_card', 'boleto', 'voucher']
+      - name: payment_value
+        description: Payment value
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              inclusive: true
+      - name: order_approved_at
+        description: Order approval timestamp
+        tests:
+          - not_null
+      - name: receipt_date
+        description: Calculated receipt date based on payment method
+        tests:
+          - not_null
+
+  - name: int_seller_location
+    description: Intermediate model for seller location information
+    columns:
+      - name: seller_id
+        description: Seller identifier (not unique - multiple zip codes per seller)
+        tests:
+          - not_null
+      - name: geolocation_city
+        description: Seller city from geolocation
+      - name: geolocation_state
+        description: Seller state from geolocation
+        tests:
+          - not_null

@@ -68,14 +68,40 @@ intermediate_models = BashOperator(
     dag=dag,
 )
 
-# Task 4: Executar testes de qualidade
-run_tests = BashOperator(
-    task_id='run_dbt_tests',
-    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --profiles-dir {DBT_PROFILES_DIR}",
+# Task 4: Executar marts (camada final)
+marts_models = BashOperator(
+    task_id='run_marts_models',
+    bash_command=f"cd {DBT_PROJECT_DIR} && dbt run --select marts --profiles-dir {DBT_PROFILES_DIR}",
     dag=dag,
 )
 
-# Task 5: Gerar documentação
+# Task 5: Executar testes de qualidade por camada
+run_staging_tests = BashOperator(
+    task_id='run_staging_tests',
+    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --select staging --profiles-dir {DBT_PROFILES_DIR}",
+    dag=dag,
+)
+
+run_intermediate_tests = BashOperator(
+    task_id='run_intermediate_tests',
+    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --select intermediate --profiles-dir {DBT_PROFILES_DIR}",
+    dag=dag,
+)
+
+run_marts_tests = BashOperator(
+    task_id='run_marts_tests',
+    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --select marts --profiles-dir {DBT_PROFILES_DIR}",
+    dag=dag,
+)
+
+# Task 6: Executar todos os testes (consolidado)
+run_all_tests = BashOperator(
+    task_id='run_all_tests',
+    bash_command=f"cd {DBT_PROJECT_DIR} && dbt test --profiles-dir {DBT_PROFILES_DIR} --store-failures",
+    dag=dag,
+)
+
+# Task 7: Gerar documentação
 generate_docs = BashOperator(
     task_id='generate_docs',
     bash_command=f"cd {DBT_PROJECT_DIR} && dbt docs generate --profiles-dir {DBT_PROFILES_DIR}",
@@ -83,4 +109,4 @@ generate_docs = BashOperator(
 )
 
 # Definindo as dependências
-setup_environment >> dbt_deps >> staging_models >> intermediate_models >> run_tests >> generate_docs
+setup_environment >> dbt_deps >> staging_models >> run_staging_tests >> intermediate_models >> run_intermediate_tests >> marts_models >> run_marts_tests >> run_all_tests >> generate_docs

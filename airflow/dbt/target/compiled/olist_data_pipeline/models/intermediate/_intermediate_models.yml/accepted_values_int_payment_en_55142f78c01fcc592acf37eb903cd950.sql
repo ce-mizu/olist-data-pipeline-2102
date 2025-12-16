@@ -1,0 +1,22 @@
+
+    
+    
+
+with all_values as (
+
+    select
+        payment_type as value_field,
+        count(*) as n_records
+
+    from `olist-data-pipeline`.`intermediate`.`int_payment_enriched`
+    group by payment_type
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'credit_card','debit_card','boleto','voucher'
+)
+
+
