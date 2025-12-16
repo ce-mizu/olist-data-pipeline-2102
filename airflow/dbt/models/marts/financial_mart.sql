@@ -33,15 +33,21 @@ monthly_revenue_billing AS (
     EXTRACT(YEAR FROM order_approved_at) as billing_year,
     EXTRACT(MONTH FROM order_approved_at) as billing_month,
     payment_type,
-    SUM(payment_value) as monthly_billing,
-    SUM(SUM(payment_value)) OVER (
-      PARTITION BY payment_type
-      ORDER BY EXTRACT(YEAR FROM order_approved_at), EXTRACT(MONTH FROM order_approved_at)
-      ROWS UNBOUNDED PRECEDING
-    ) as cumulative_billing
+    SUM(payment_value) as monthly_billing
   FROM {{ ref('int_payment_enriched') }} p
   WHERE order_approved_at IS NOT NULL
   GROUP BY EXTRACT(YEAR FROM order_approved_at), EXTRACT(MONTH FROM order_approved_at), payment_type
+),
+
+cumulative_billing AS (
+  SELECT
+    *,
+    SUM(monthly_billing) OVER (
+      PARTITION BY payment_type
+      ORDER BY billing_year, billing_month
+      ROWS UNBOUNDED PRECEDING
+    ) as cumulative_billing
+  FROM monthly_revenue_billing
 ),
 
 monthly_revenue_receipt AS (
@@ -49,15 +55,21 @@ monthly_revenue_receipt AS (
     EXTRACT(YEAR FROM receipt_date) as receipt_year,
     EXTRACT(MONTH FROM receipt_date) as receipt_month,
     payment_type,
-    SUM(payment_value) as monthly_receipt,
-    SUM(SUM(payment_value)) OVER (
-      PARTITION BY payment_type
-      ORDER BY EXTRACT(YEAR FROM receipt_date), EXTRACT(MONTH FROM receipt_date)
-      ROWS UNBOUNDED PRECEDING
-    ) as cumulative_receipt
+    SUM(payment_value) as monthly_receipt
   FROM {{ ref('int_payment_enriched') }} p
   WHERE receipt_date IS NOT NULL
   GROUP BY EXTRACT(YEAR FROM receipt_date), EXTRACT(MONTH FROM receipt_date), payment_type
+),
+
+cumulative_receipt AS (
+  SELECT
+    *,
+    SUM(monthly_receipt) OVER (
+      PARTITION BY payment_type
+      ORDER BY receipt_year, receipt_month
+      ROWS UNBOUNDED PRECEDING
+    ) as cumulative_receipt
+  FROM monthly_revenue_receipt
 )
 
 SELECT
@@ -136,25 +148,25 @@ SELECT
 -- Faturamento acumulado individual por tipo de pagamento
   SUM(p.payment_value) OVER (
     PARTITION BY p.payment_type
-    ORDER BY p.order_approved_at
+    ORDER BY p.order_approved_at, p.order_id
     ROWS UNBOUNDED PRECEDING
   ) as individual_cumulative_billing,
 
-  SUM(p.payment_value) OVER (
+  SUM(CASE WHEN p.receipt_date IS NOT NULL THEN p.payment_value ELSE 0 END) OVER (
     PARTITION BY p.payment_type
-    ORDER BY p.receipt_date
+    ORDER BY COALESCE(p.receipt_date, p.order_approved_at), p.order_id
     ROWS UNBOUNDED PRECEDING
   ) as individual_cumulative_receipt
 
 FROM {{ ref('int_payment_enriched') }} p
 LEFT JOIN payment_share_analysis psa
   ON p.payment_type = psa.payment_type
-LEFT JOIN monthly_revenue_billing mrb ON (
+LEFT JOIN cumulative_billing mrb ON (
   p.payment_type = mrb.payment_type
   AND EXTRACT(YEAR FROM p.order_approved_at) = mrb.billing_year
   AND EXTRACT(MONTH FROM p.order_approved_at) = mrb.billing_month
 )
-LEFT JOIN monthly_revenue_receipt mrr ON (
+LEFT JOIN cumulative_receipt mrr ON (
   p.payment_type = mrr.payment_type
   AND EXTRACT(YEAR FROM p.receipt_date) = mrr.receipt_year
   AND EXTRACT(MONTH FROM p.receipt_date) = mrr.receipt_month
