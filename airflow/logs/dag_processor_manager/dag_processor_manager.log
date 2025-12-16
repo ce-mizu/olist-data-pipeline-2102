@@ -1,0 +1,1457 @@
+[2025-12-13T17:31:39.514+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-12-13T17:31:39.514+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-12-13T17:31:39.514+0000] {manager.py:485} INFO - Checking for new files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags every 300 seconds
+[2025-12-13T17:31:39.515+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:31:39.516+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:31:39.857+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:31:39                      45
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               0           0                                                            0
+================================================================================
+[2025-12-13T17:32:10.928+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:31:41                      45
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:32:10                      12
+================================================================================
+[2025-12-13T17:32:41.151+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:32:41                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:32:12                      12
+================================================================================
+[2025-12-13T17:33:11.277+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:33:11                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:32:42                      12
+================================================================================
+[2025-12-13T17:33:41.498+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:33:41                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:33:12                      12
+================================================================================
+[2025-12-13T17:34:11.717+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:33:42                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.10s           2025-12-13T17:34:11                      12
+================================================================================
+[2025-12-13T17:34:41.940+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:34:41                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:34:12                      12
+================================================================================
+[2025-12-13T17:35:12.249+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:35:12                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:34:43                      12
+================================================================================
+[2025-12-13T17:35:42.387+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.10s           2025-12-13T17:35:42                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:35:13                      12
+================================================================================
+[2025-12-13T17:36:12.609+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:36:12                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:35:43                      12
+================================================================================
+[2025-12-13T17:36:39.640+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:36:39.642+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:36:42.937+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:36:42                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:36:13                      12
+================================================================================
+[2025-12-13T17:37:13.124+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.10s           2025-12-13T17:37:13                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:36:44                      12
+================================================================================
+[2025-12-13T17:37:43.515+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:37:43                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:37:14                      12
+================================================================================
+[2025-12-13T17:38:13.864+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:38:13                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:37:44                      12
+================================================================================
+[2025-12-13T17:38:44.610+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:38:44                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:38:15                      12
+================================================================================
+[2025-12-13T17:39:15.912+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:38:45                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:39:15                      12
+================================================================================
+[2025-12-13T17:39:47.217+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:39:47                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:39:17                      12
+================================================================================
+[2025-12-13T17:40:18.539+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:40:18                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:39:48                      12
+================================================================================
+[2025-12-13T17:40:49.868+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:40:19                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.30s           2025-12-13T17:40:49                      12
+================================================================================
+[2025-12-13T17:41:20.467+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T17:40:50                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:41:20                      12
+================================================================================
+[2025-12-13T17:41:39.862+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:41:39.863+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:41:50.862+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:41:21                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:41:50                      12
+================================================================================
+[2025-12-13T17:42:21.215+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:42:21                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:41:51                      12
+================================================================================
+[2025-12-13T17:42:51.497+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:42:51                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:42:21                      12
+================================================================================
+[2025-12-13T17:43:21.872+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:43:21                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:42:52                      12
+================================================================================
+[2025-12-13T17:43:52.447+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:43:52                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:43:22                      12
+================================================================================
+[2025-12-13T17:44:22.591+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:43:52                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:44:22                      12
+================================================================================
+[2025-12-13T17:44:52.964+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:44:52                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:44:23                      12
+================================================================================
+[2025-12-13T17:45:23.236+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:45:23                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:44:53                      12
+================================================================================
+[2025-12-13T17:45:53.514+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:45:53                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:45:23                      12
+================================================================================
+[2025-12-13T17:46:23.796+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:46:23                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:45:53                      12
+================================================================================
+[2025-12-13T17:46:40.077+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:46:40.079+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:46:54.083+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:46:54                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:46:24                      12
+================================================================================
+[2025-12-13T17:47:24.368+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:47:24                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:46:55                      12
+================================================================================
+[2025-12-13T17:47:54.557+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T17:47:54                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:47:25                      12
+================================================================================
+[2025-12-13T17:48:24.886+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:48:24                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:47:55                      12
+================================================================================
+[2025-12-13T17:48:55.216+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:48:55                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:48:26                      12
+================================================================================
+[2025-12-13T17:49:25.489+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:49:25                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:49:01                      34
+================================================================================
+[2025-12-13T17:49:55.735+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:49:55                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:49:52                      12
+================================================================================
+[2025-12-13T17:50:26.016+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:50:26                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:50:22                      12
+================================================================================
+[2025-12-13T17:50:56.303+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:50:56                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:50:53                      12
+================================================================================
+[2025-12-13T17:51:26.582+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:51:26                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:51:10                      34
+================================================================================
+[2025-12-13T17:51:40.294+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:51:40.296+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:51:56.913+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:51:56                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:51:44                      11
+================================================================================
+[2025-12-13T17:52:27.246+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:52:27                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:52:00                      11
+================================================================================
+[2025-12-13T17:52:57.536+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:52:57                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:52:31                      12
+================================================================================
+[2025-12-13T17:53:27.818+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:53:27                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:53:01                      12
+================================================================================
+[2025-12-13T17:53:58.087+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:53:58                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:53:31                      12
+================================================================================
+[2025-12-13T17:54:28.379+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:54:28                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:54:02                      12
+================================================================================
+[2025-12-13T17:54:58.668+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:54:58                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:54:32                      12
+================================================================================
+[2025-12-13T17:55:28.908+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:55:28                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:55:03                      12
+================================================================================
+[2025-12-13T17:55:59.187+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:55:59                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:55:33                      12
+================================================================================
+[2025-12-13T17:56:29.468+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:56:29                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:56:04                      12
+================================================================================
+[2025-12-13T17:56:40.509+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:56:40.511+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T17:56:59.750+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:56:56                      34
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:56:59                      12
+================================================================================
+[2025-12-13T17:57:29.991+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:57:29                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:57:27                      12
+================================================================================
+[2025-12-13T17:58:00.219+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:58:00                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:57:57                      12
+================================================================================
+[2025-12-13T17:58:30.443+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T17:58:27                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:58:30                      12
+================================================================================
+[2025-12-13T17:59:00.651+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:59:00                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:58:57                      12
+================================================================================
+[2025-12-13T17:59:30.880+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T17:59:30                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T17:59:27                      12
+================================================================================
+[2025-12-13T18:00:01.111+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:00:01                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T17:59:58                      12
+================================================================================
+[2025-12-13T18:00:31.335+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:00:31                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:00:28                      12
+================================================================================
+[2025-12-13T18:01:01.557+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:01:01                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:00:58                      12
+================================================================================
+[2025-12-13T18:01:31.783+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:01:31                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:01:28                      12
+================================================================================
+[2025-12-13T18:01:40.611+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:01:40.612+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:02:02.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:02:02                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:01:59                      12
+================================================================================
+[2025-12-13T18:02:32.354+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:02:32                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:02:29                      12
+================================================================================
+[2025-12-13T18:03:02.645+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:03:02                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:03:00                      12
+================================================================================
+[2025-12-13T18:03:32.937+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:03:30                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:03:32                      12
+================================================================================
+[2025-12-13T18:04:03.227+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:04:03                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:04:00                      12
+================================================================================
+[2025-12-13T18:04:33.516+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:04:33                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:04:30                      12
+================================================================================
+[2025-12-13T18:05:03.807+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:05:03                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:05:01                      12
+================================================================================
+[2025-12-13T18:05:34.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:05:34                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:05:32                      34
+================================================================================
+[2025-12-13T18:06:04.390+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:06:04                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:06:03                      12
+================================================================================
+[2025-12-13T18:06:34.401+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:06:04                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:06:34                      12
+================================================================================
+[2025-12-13T18:06:40.771+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:06:40.773+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:07:04.672+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:06:35                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:07:04                      12
+================================================================================
+[2025-12-13T18:07:34.991+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:07:31                      34
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:07:05                      12
+================================================================================
+[2025-12-13T18:08:05.264+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:07:36                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:07:54                      11
+================================================================================
+[2025-12-13T18:08:35.515+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:08:06                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:08:10                      34
+================================================================================
+[2025-12-13T18:09:06.552+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:08:36                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:08:43                      12
+================================================================================
+[2025-12-13T18:09:36.939+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:09:07                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:09:13                      12
+================================================================================
+[2025-12-13T18:10:07.606+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:09:44                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:10:07                      12
+================================================================================
+[2025-12-13T18:10:37.896+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:10:37                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:10:14                      12
+================================================================================
+[2025-12-13T18:11:08.184+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:11:08                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:10:44                      12
+================================================================================
+[2025-12-13T18:11:38.474+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:11:38                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:11:15                      12
+================================================================================
+[2025-12-13T18:11:41.654+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:11:41.656+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:12:08.765+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:12:08                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:11:45                      12
+================================================================================
+[2025-12-13T18:12:39.054+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:12:39                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:12:16                      12
+================================================================================
+[2025-12-13T18:13:09.345+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:13:09                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:12:46                      12
+================================================================================
+[2025-12-13T18:13:39.635+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:13:39                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:13:24                      34
+================================================================================
+[2025-12-13T18:14:09.928+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:14:09                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:13:54                      12
+================================================================================
+[2025-12-13T18:14:40.223+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:14:40                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:14:24                      12
+================================================================================
+[2025-12-13T18:15:10.514+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:15:10                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:14:54                      12
+================================================================================
+[2025-12-13T18:15:40.805+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:15:40                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:15:25                      12
+================================================================================
+[2025-12-13T18:16:11.096+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:16:11                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:15:55                      12
+================================================================================
+[2025-12-13T18:16:41.388+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:16:25                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:16:41                      12
+================================================================================
+[2025-12-13T18:16:42.432+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:16:42.434+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:17:11.680+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:17:11                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:16:56                      12
+================================================================================
+[2025-12-13T18:17:41.970+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.21s           2025-12-13T18:17:41                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:17:12                      12
+================================================================================
+[2025-12-13T18:18:12.260+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:18:12                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:17:43                      12
+================================================================================
+[2025-12-13T18:18:42.552+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:18:42                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:18:13                      12
+================================================================================
+[2025-12-13T18:19:12.842+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:19:12                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:18:43                      12
+================================================================================
+[2025-12-13T18:19:43.131+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:19:43                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:19:13                      12
+================================================================================
+[2025-12-13T18:20:13.422+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:20:13                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:19:44                      12
+================================================================================
+[2025-12-13T18:20:43.613+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:20:43                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:20:14                      12
+================================================================================
+[2025-12-13T18:21:13.902+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.30s           2025-12-13T18:20:52                      34
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:21:13                      12
+================================================================================
+[2025-12-13T18:21:42.684+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:21:42.686+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:21:44.095+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:21:23                      34
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:21:44                      12
+================================================================================
+[2025-12-13T18:22:14.363+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:21:53                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:22:14                      12
+================================================================================
+[2025-12-13T18:22:44.562+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:22:44                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:22:24                      12
+================================================================================
+[2025-12-13T18:23:14.852+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:23:14                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:22:54                      12
+================================================================================
+[2025-12-13T18:23:45.141+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:23:45                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               0           1  0.10s           2025-12-13T18:23:25                       3
+================================================================================
+[2025-12-13T18:24:15.421+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:24:15                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               0           1  0.10s           2025-12-13T18:23:55                       5
+================================================================================
+[2025-12-13T18:24:45.690+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:24:45                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               0           1  0.10s           2025-12-13T18:24:38                       5
+================================================================================
+[2025-12-13T18:25:15.969+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:25:15                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:25:14                      11
+================================================================================
+[2025-12-13T18:25:46.191+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:25:46                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:25:44                      12
+================================================================================
+[2025-12-13T18:26:16.484+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:26:16                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:26:07                      12
+================================================================================
+[2025-12-13T18:26:43.023+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:26:43.024+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:26:46.773+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:26:46                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:26:38                      12
+================================================================================
+[2025-12-13T18:27:17.064+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:27:17                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:27:08                      12
+================================================================================
+[2025-12-13T18:27:47.353+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:27:47                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:27:38                      12
+================================================================================
+[2025-12-13T18:28:17.644+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:28:17                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:28:08                      12
+================================================================================
+[2025-12-13T18:28:47.933+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:28:47                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:28:29                      12
+================================================================================
+[2025-12-13T18:29:18.212+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:29:18                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:29:00                      12
+================================================================================
+[2025-12-13T18:29:48.504+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:29:48                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:29:30                      12
+================================================================================
+[2025-12-13T18:30:18.783+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:30:18                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:30:00                      12
+================================================================================
+[2025-12-13T18:30:48.959+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:30:48                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:30:30                      12
+================================================================================
+[2025-12-13T18:31:19.229+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:31:19                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:31:01                      12
+================================================================================
+[2025-12-13T18:31:44.018+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:31:44.020+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:31:49.402+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:31:49                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:31:31                      12
+================================================================================
+[2025-12-13T18:32:19.575+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:32:19                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:32:01                      12
+================================================================================
+[2025-12-13T18:32:49.844+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:32:49                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:32:31                      12
+================================================================================
+[2025-12-13T18:33:20.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:33:20                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:33:02                      12
+================================================================================
+[2025-12-13T18:33:50.286+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:33:50                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:33:38                      11
+================================================================================
+[2025-12-13T18:34:20.780+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:34:08                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:34:20                      12
+================================================================================
+[2025-12-13T18:34:51.253+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:34:51                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:34:38                      12
+================================================================================
+[2025-12-13T18:35:21.640+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:35:21                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:35:09                      12
+================================================================================
+[2025-12-13T18:35:52.029+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:35:52                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:35:39                      12
+================================================================================
+[2025-12-13T18:36:22.420+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:36:22                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:36:10                      12
+================================================================================
+[2025-12-13T18:36:44.295+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:36:44.296+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:36:52.811+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:36:52                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:36:40                      12
+================================================================================
+[2025-12-13T18:37:23.197+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:37:23                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:37:10                      12
+================================================================================
+[2025-12-13T18:37:53.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:37:53                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:37:41                      12
+================================================================================
+[2025-12-13T18:38:23.675+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:38:23                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:38:11                      12
+================================================================================
+[2025-12-13T18:38:55.658+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:38:55                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:38:41                      12
+================================================================================
+[2025-12-13T18:39:26.643+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:39:26                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:39:21                      11
+================================================================================
+[2025-12-13T18:39:57.859+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:39:57                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:39:29                      11
+================================================================================
+[2025-12-13T18:40:28.278+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:40:28                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:40:00                      12
+================================================================================
+[2025-12-13T18:40:58.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:40:30                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:40:58                      12
+================================================================================
+[2025-12-13T18:41:28.758+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:41:28                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:41:00                      12
+================================================================================
+[2025-12-13T18:41:45.111+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:41:45.113+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:41:59.213+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:41:59                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:41:43                      11
+================================================================================
+[2025-12-13T18:42:29.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:42:14                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:42:29                      12
+================================================================================
+[2025-12-13T18:42:59.729+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:42:59                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:42:44                      12
+================================================================================
+[2025-12-13T18:43:30.028+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:43:30                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:43:15                      12
+================================================================================
+[2025-12-13T18:44:00.359+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:44:00                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:43:45                      12
+================================================================================
+[2025-12-13T18:44:30.621+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:44:19                      34
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:44:30                      12
+================================================================================
+[2025-12-13T18:45:00.857+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:45:00                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:44:49                      12
+================================================================================
+[2025-12-13T18:45:31.131+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:45:31                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:45:07                      12
+================================================================================
+[2025-12-13T18:46:01.280+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.11s           2025-12-13T18:46:01                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:45:38                      12
+================================================================================
+[2025-12-13T18:46:31.611+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:46:31                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:46:08                      12
+================================================================================
+[2025-12-13T18:46:45.566+0000] {manager.py:821} INFO - Searching for files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:46:45.568+0000] {manager.py:824} INFO - There are 2 files in /home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags
+[2025-12-13T18:47:01.941+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:47:01                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:46:38                      12
+================================================================================
+[2025-12-13T18:47:32.245+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:47:32                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:47:08                      12
+================================================================================
+[2025-12-13T18:48:02.530+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:48:02                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:47:39                      12
+================================================================================
+[2025-12-13T18:48:32.812+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:48:32                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.11s           2025-12-13T18:48:09                      12
+================================================================================
+[2025-12-13T18:49:03.093+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:49:03                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:48:39                      12
+================================================================================
+[2025-12-13T18:49:33.375+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:49:33                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.10s           2025-12-13T18:49:10                      12
+================================================================================
+[2025-12-13T18:50:03.660+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:50:03                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:49:40                      12
+================================================================================
+[2025-12-13T18:50:33.946+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:50:23                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:50:33                      12
+================================================================================
+[2025-12-13T18:51:04.227+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_pipeline_advanced.py                           1           0  0.20s           2025-12-13T18:51:04                      12
+/home/eduardomizumoto/code/ce-mizu/olist-data-pipeline-2102/airflow/dags/olist_data_pipeline.py                               1           0  0.20s           2025-12-13T18:50:54                      12
+================================================================================
